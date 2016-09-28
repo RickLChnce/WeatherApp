@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <meta charset="UTF-8">
+    <head>
+        <title>Your Local Weather</title>
+        <link href="css/WeatherApp.css" type="text/css"
+            rel="stylesheet" />
+    </head>
+    <body>
+        <div id="weather">
+            <h1>Your Local Weather</h1>
+            <div id="location">
+                <table>
+                    <tr>
+                        <td>Location:</td>
+                        <td id="theLocation"></td>
+                    </tr>
+                </table>
+            </div>
+            <h2>Current Weather</h2>
+            <div class="currents">
+                <div id="currentImg">
+                    <img id="curWeatherImg" src="images/clearImg.png" class="medium" float="right" margin="20">
+                </div>    
+                <div id="currentStats">
+                    <table>
+                        <tr>
+                            <td>Temp</td>
+                            <td id="temp">&#8457</td>
+                        </tr>
+                        <tr>
+                            <td>Humidity</td>
+                            <td id="humidity">&#37</td>
+                        </tr>
+                        <tr>
+                            <td>Conditions</td>
+                            <td id="condition"></td>
+                        </tr>
+                        <tr>
+                            <td>Wind Speed</td>
+                            <td id="wind">mph</td>
+                        </tr>
+                        <tr>
+                            <td>Direction</td>
+                            <td id="direction"></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <p>
+                <h2>5 Day Forecast</h2>
+            </p>
+            <div class="extended">
+                 <div class="days">
+                    <img id="day1Img" src="images/clearImg.png" class="small">
+                    <p id="d1"></p>
+                </div>
+                 <div class="days">
+                    <img id="day2Img" src="images/clearImg.png" class="small">
+                    <p id="d2"></p>
+                </div>
+                 <div class="days">
+                    <img id="day3Img" src="images/clearImg.png" class="small">
+                    <p id="d3"></p>
+                </div>
+                 <div class="days">
+                    <img id="day4Img" src="images/clearImg.png" class="small">
+                    <p id="d4"></p>
+                </div>
+                 <div class="days">
+                    <img id="day5Img" src="images/clearImg.png" class="small">
+                    <p id="d5"></p>
+                </div>
+            </div>
+            <div id="footer">
+                <p2 id="theTime">Forecast Time: </p2>
+            </div>
+        </div>
+        <div id="credits">
+            <p2>Forecast provided by:</p2>
+            <p2>OpenWeather</p2>
+        </div>
+        <script src="js/jquery-3.1.1.min.js"></script>
+        <script type="text/javascript" src="js/WeatherApp.js"></script>
+    </body>
+</html>

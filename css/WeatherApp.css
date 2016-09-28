@@ -1,0 +1,80 @@
+body {
+    color: rgb(255,255,255);
+    font-family: Sans-serif;
+    background-color: rgb(35, 97, 103);
+}
+#weather{
+    border: 1px solid black;
+    background-image: url("../images/sun_tree.png");
+    margin: 5px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+p {
+    text-align: center;
+}
+table{
+    width: 200px;
+    margin: 0px auto;
+}
+#currentImg{
+    float: left;
+    position: relative;
+    left: -50%;
+    margin-right: 20px;
+}
+#currentStats{
+    float: left;
+    position: relative;
+    left: -50%;
+    margin-left: 20px;
+}
+.currents{
+    float: left;
+    position: relative;
+    left: 50%;
+}
+.extended{
+    float: left;
+    position: relative;
+    left: 50%;
+}
+#footer{
+    clear: both;
+    margin: 5px;
+    text-align: right;
+}
+#credits {
+    margin-right: 10px;
+    text-align: right;
+}
+h1{
+    font-family: Georgia, Sans-serif;
+    font-size: 46px;
+    text-align: center;
+    color: rgb(255,150,100);
+}
+h2{
+    clear: both;
+    text-align: center;
+    color: rgb(255,255,255);
+}
+img.medium{
+    width: 150px;
+    height: auto;
+}
+img.small{
+    width: 70px;
+    height: 70px;
+}
+#p2{
+    text-align: right;
+}
+.days{
+    float: left;
+    position: relative;
+    left: -50%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
