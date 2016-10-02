@@ -145,6 +145,17 @@ function displayExtendedWeather(currentData){
   			day = day + 1;
   		}
   	}
+
+  	/**
+		If the above for loop fails to return a 5 day forcast, which may happen if the time is before 12:00, this 
+		if statement populates the days without a forecast with an appropiate image.   
+  	*/
+  	if(day <= 5){
+  		for(;day <= 5; day++){
+  			$('#day' + day + 'Img').attr('src','images/ForecastNotAvail.png');
+  			day = day + 1;
+  		}
+  	}
 }
 
 
